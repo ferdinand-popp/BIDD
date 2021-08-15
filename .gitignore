@@ -1,0 +1,34 @@
+# Ignore files related to API keys
+.env
+
+# PyCharm
+.idea/
+*.idea/
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+#Ignore data
+*.data/
+
+#Ignore logs
+*.runs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
