@@ -37,12 +37,13 @@ def build_model(input_data):
 # Logo image
 image = Image.open('images/logo.png')
 
-st.image(image, use_column_width=True)
+st.image(image, use_column_width=False)
 
 # Page title
 st.markdown("""
 # Bioactivity Prediction App
-This app allows you to predict the bioactivity towards inhibting the target enzyme.
+This app allows you to predict the bioactivity of molecules as SMILES towards inhibting the target enzyme Acetylcholinesterase with a QSAR model.
+
 **Credits**
 - App built in `Python` + `Streamlit` 
 - Descriptor calculated using [PaDEL-Descriptor](http://www.yapcwsoft.com/dd/padeldescriptor/) [[Read the Paper]](https://doi.org/10.1002/jcc.21707).
