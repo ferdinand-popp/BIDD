@@ -34,10 +34,6 @@ def build_model(input_data):
     st.write(df)
     st.markdown(filedownload(df), unsafe_allow_html=True)
 
-# Logo image
-image = Image.open('images/logo.png')
-
-st.image(image, use_column_width=False)
 
 # Page title
 st.markdown("""
