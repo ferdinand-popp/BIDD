@@ -134,6 +134,13 @@ Use this space to show useful examples of how a project can be used. Additional 
 ```python
    streamlit run app.py
    ```
+   
+Deploy streamlit to server
+
+```link
+https://docs.streamlit.io/en/stable/deploy_streamlit_app.html
+   ```
+
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
